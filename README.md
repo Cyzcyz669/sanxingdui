@@ -30,9 +30,8 @@
 
 `sckg_k1_1986.jpg`（1986 年 1 号坑）、`sckg_k2_1986.jpg`（1986 年 2 号坑）、`sckg_dali_1986.jpg`（铜大立人像、铜大面具出土）、`sckg_k4_2021.jpg`（2021 年 2 月 26 日 4 号坑）：© 四川省文物考古研究院，出自其官网 [《广汉三星堆遗址》](https://www.sckg.com/shangzhou/1575.html)，**经研究院授权在本作品中使用，不适用任何开放许可，请勿另行转载**。仅缩小尺寸，未裁切、未去水印。
 
-## 配音
+## 第二章“看”试做：纵目面具 3D 示意模型
 
-`assets/vo_*.mp3`：旁白由开源语音模型 [Kokoro-82M v1.1-zh](https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh)（Apache-2.0）离线合成，是机器朗读，不是当事人原声。
-
+`look.html`：青铜纵目面具的 3D **示意**模型，照着 Gary Todd 拍的 4 张照片（Wikimedia Commons “Ancient Bronze Mask from Sanxingdui with Protruding Eyes & Ears a/c/d/e”，**CC0**）和展牌尺寸（宽 138、高 66 厘米）手工搭建，**不是扫描**；眼柱长短、厚度、背后和顶上等是估的。`m3d_a/c/d/e.webp` 是这 4 张照片缩小并压平展厅灯光后的贴图。
 
 © dai vu。设计、代码与文案保留所有权利；未经许可，请勿复制、改编或再发布（上表所列第三方图片按其各自授权）。

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0d0a07">
+<title>看 · 青铜纵目面具（3D 示意）</title>
+<meta name="description" content="三星堆青铜纵目面具的 3D 示意模型：照着照片手搭的，拿灯照一照。">
+<link rel="icon" href="data:,">
+<style>
+html,body{margin:0;height:100%;background:#0d0a07;color:#efe6d6;font-family:"Noto Serif SC","Songti SC",serif;overflow:hidden;-webkit-user-select:none;user-select:none}
+body{background:radial-gradient(ellipse 70% 45% at 50% 62%,#2a2118 0%,#120e0a 60%,#0d0a07 100%)}
+#gl{position:fixed;inset:0;width:100%;height:100%;touch-action:none;opacity:0;transition:opacity .8s}
+.ready #gl{opacity:1}
+#ov{position:fixed;inset:0;width:100%;height:100%;object-fit:contain;pointer-events:none;display:none}
+.cmp #ov{display:block}
+header{position:fixed;top:0;left:0;right:0;padding:calc(env(safe-area-inset-top) + 14px) 18px 0;text-align:center;pointer-events:none}
+header .k{font-size:12px;letter-spacing:.3em;color:#b59a74}
+header h1{font-size:22px;margin:4px 0 2px;font-weight:600;letter-spacing:.08em}
+header .sub{font-size:12.5px;color:#cbb994}
+#hint{position:fixed;left:0;right:0;bottom:calc(env(safe-area-inset-bottom) + 132px);text-align:center;font-size:14px;color:#e8dcc4;text-shadow:0 1px 4px #000;transition:opacity .6s;pointer-events:none}
+#hint.dim{opacity:.0}
+#bar{position:fixed;left:0;right:0;bottom:calc(env(safe-area-inset-bottom) + 62px);display:flex;gap:10px;justify-content:center}
+button{font:inherit;color:#efe6d6;background:#2a2016cc;border:1px solid #6b5538;border-radius:22px;padding:9px 16px;font-size:15px}
+button.on{background:#7a4f22;border-color:#e0a65c}
+#foot{position:fixed;left:0;right:0;bottom:0;padding:8px 14px calc(env(safe-area-inset-bottom) + 8px);font-size:11.5px;line-height:1.55;color:#bfae8f;background:#0d0a07e6;text-align:center}
+#foot a{color:#e0b878}
+#cmpbar{position:fixed;left:0;right:0;top:calc(env(safe-area-inset-top) + 92px);display:none;flex-direction:column;align-items:center;gap:6px;font-size:13px;color:#e8dcc4;text-shadow:0 1px 3px #000}
+.cmp #cmpbar{display:flex}
+.cmp #bar,.cmp #hint{display:none}
+#cmpbar .r{display:flex;gap:8px;align-items:center}
+#cmpbar input{width:150px}
+#cmpbar button{padding:5px 12px;font-size:13px}
+#info{position:fixed;left:12px;right:12px;bottom:calc(env(safe-area-inset-bottom) + 70px);max-height:62vh;overflow:auto;background:#1a140ef2;border:1px solid #5d4a31;border-radius:12px;padding:14px 16px;font-size:14px;line-height:1.7}
+#info h2{font-size:17px;margin:0 0 6px}
+#info p{margin:6px 0}
+.lv{display:inline-block;font-size:11px;padding:0 6px;border-radius:8px;margin-right:6px;vertical-align:1px}
+.g{background:#3e5a3a}.s{background:#5a4a2a}.m{background:#5a3030}
+.hide{display:none!important}
+#msg{position:fixed;top:45%;left:20px;right:20px;text-align:center}
+#info img{width:24%;margin-right:1%;border-radius:4px}
+</style>
+</head>
+<body>
+<canvas id="gl" aria-label="青铜纵目面具 3D 示意模型"></canvas>
+<img id="ov" alt="对照用的原照片">
+<header><div class="k">三星堆 · 第二章“看” · 试做</div><h1>青铜纵目面具</h1><div class="sub">3D 示意模型 · 照着照片手搭的，不是扫描</div></header>
+<div id="msg"></div>
+<div id="cmpbar"><div id="cmpT"></div><div class="r">照片<input id="mix" type="range" min="0" max="100" value="50">模型</div><div class="r"><button id="albedo" data-m="0">看：带灯</button><button id="cmpNext">下一张</button><button id="cmpX">回去转</button></div><div style="font-size:12px;color:#cbb994">对不上的地方，就是模型估错的地方。</div></div>
+<div id="hint">拖动转一转 · 两指缩放</div>
+<div id="bar"><button id="bTurn" class="on">转</button><button id="bLamp">拿灯照</button><button id="bCmp">对照照片</button><button id="bInfo">这是什么</button></div>
+<section id="info" class="hide">
+<h2>青铜纵目面具 · 1986 年 2 号坑</h2>
+<p><span class="lv g">展牌</span>宽 138 厘米，高 66 厘米，三星堆出土形体最大的两件面具之一。</p>
+<p><span class="lv s">一种说法</span>展牌写：一般认为它的眼睛符合史书里蜀人始祖蚕丛“纵目”的记载，可能是祖先神像。这是解读，不是定论。</p>
+<p><span class="lv m">示意</span>这个 3D 模型是照着下面 4 张照片和展牌尺寸<b>手工估出来的</b>：在照片上点出额头方孔、眼柱端头、鼻尖、耳尖等位置，反推每张照片的拍摄角度，再调形状。眼柱长短、脸往前探多少、侧壁多深、铜壁厚度都是估的；背后和顶上没有照片，是补的。表面贴的就是这几张照片（展厅灯光压平了一些），所以会带着照片里的反光。真器物以博物馆为准。</p>
+<p><img src="assets/m3d_a.webp" alt="正面"><img src="assets/m3d_c.webp" alt="左侧"><img src="assets/m3d_e.webp" alt="右侧"><img src="assets/m3d_d.webp" alt="背面内壁"></p>
+<p style="font-size:12px;color:#bfae8f">照片：Gary Todd（WorldHistoryPics），三星堆博物馆，Wikimedia Commons “Ancient Bronze Mask from Sanxingdui with Protruding Eyes &amp; Ears a/c/d/e”，CC0。展牌文字据其照片。</p>
+<p><button id="infoX">收起</button></p>
+</section>
+<div id="foot"><b>示意模型</b>：照着 4 张照片（Gary Todd，CC0）和展牌尺寸手搭的，不是扫描；形状、厚度、背面是估的 ｜ <a href="./">← 回到第一章“掘”</a></div>
+<script src="js/look.js"></script>
+</body>
+</html>
