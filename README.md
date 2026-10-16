@@ -6,7 +6,7 @@
 
 ## 图片授权
 
-器物照片均为博物馆中**修复后**的样子，来自维基共享资源；坑里的器物是这些照片的抠图（`assets/cut_*.webp`）。坑、土、灯、象牙、方舱等为示意绘制，声音为合成。
+器物照片均为博物馆中**修复后**的样子，来自维基共享资源；坑里的器物是这些照片的抠图（`assets/cut_*.webp`）；两版都玩完后可看「展品轮播」（`assets/ex_*.jpg` 等）。铜罍照片的坑号为摄影者题注。坑、土、灯、象牙、方舱等为示意绘制，声音为合成。
 
 | 文件 | 原图 | 作者 | 授权 |
 |---|---|---|---|
@@ -14,6 +14,15 @@
 | zongmu.jpg、cut_zongmu.webp | [Ancient Bronze Mask from Sanxingdui with Protruding Eyes & Ears a.jpg](https://commons.wikimedia.org/wiki/File:Ancient_Bronze_Mask_from_Sanxingdui_with_Protruding_Eyes_%26_Ears_a.jpg) | Gary Todd | CC0 |
 | cut_dali.webp、cut_hand.webp | [Bronze Colossal Standing Figure, Sanxingdui a.jpg](https://commons.wikimedia.org/wiki/File:Bronze_Colossal_Standing_Figure,_Sanxingdui_a.jpg) | Gary Todd | CC0 |
 | niutou.jpg、cut_niutou.webp | [三星堆-青铜扭头跪坐人像 sanxingdui.jpg](https://commons.wikimedia.org/wiki/File:三星堆-青铜扭头跪坐人像_sanxingdui.jpg) | Wxmarshall | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| dali.jpg | [Bronze Colossal Standing Figure, Sanxingdui a.jpg](https://commons.wikimedia.org/wiki/File:Bronze_Colossal_Standing_Figure,_Sanxingdui_a.jpg) | Gary Todd | CC0 |
+| ivory.jpg | [Sanxingdui Ivory Tusk (9951099014).jpg](https://commons.wikimedia.org/wiki/File:Sanxingdui_Ivory_Tusk_(9951099014).jpg) | Gary Todd | CC0 |
+| ex_shenshu.jpg | [Sanxingdui Bronze Tree (9950507156).jpg](https://commons.wikimedia.org/wiki/File:Sanxingdui_Bronze_Tree_(9950507156).jpg) | Gary Todd | CC0 |
+| ex_taiyang.jpg | [Sanxingdui Bronze Sun Wheel (9950554625).jpg](https://commons.wikimedia.org/wiki/File:Sanxingdui_Bronze_Sun_Wheel_(9950554625).jpg) | Gary Todd | CC0 |
+| ex_niaojiao.jpg | [Bronze Bird-man Figure, Sanxingdui a.jpg](https://commons.wikimedia.org/wiki/File:Bronze_Bird-man_Figure,_Sanxingdui_a.jpg) | Gary Todd | CC0 |
+| ex_niaotou.jpg | [Bronze Bird Head from Larger Artifact, Sanxingdui 1.jpg](https://commons.wikimedia.org/wiki/File:Bronze_Bird_Head_from_Larger_Artifact,_Sanxingdui_1.jpg) | Gary Todd | CC0 |
+| ex_daiguan.jpg | [Ancient Bronze Mask from Sanxingdui- Flanged, with Protruding Pupils a.jpg](https://commons.wikimedia.org/wiki/File:Ancient_Bronze_Mask_from_Sanxingdui-_Flanged,_with_Protruding_Pupils_a.jpg) | Gary Todd | CC0 |
+| ex_gongji.jpg（已裁切） | [Sanxingdui Bronze Rooster (9951533324).jpg](https://commons.wikimedia.org/wiki/File:Sanxingdui_Bronze_Rooster_(9951533324).jpg) | Gary Todd | CC0 |
+| ex_lei.jpg | [Sanxingdui Bronze Lei from Pit 2 (9951021206).jpg](https://commons.wikimedia.org/wiki/File:Sanxingdui_Bronze_Lei_from_Pit_2_(9951021206).jpg) | Gary Todd | CC0 |
 
 `niutou.jpg` 与其抠图 `cut_niutou.webp`（裁剪、去背景）按 CC BY-SA 4.0 以相同许可提供。
 

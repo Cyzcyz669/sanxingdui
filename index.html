@@ -33,12 +33,19 @@
     <button class="btn main" data-mode="86">1986 · 草棚夜<small>推荐先玩</small></button>
     <button class="btn main alt" data-mode="20">2020 · 方舱<small>4 号坑</small></button>
   </div>
+  <button class="btn" id="galBtn" hidden>看展品 · 12 件</button>
   <p class="small">有声音，戴耳机更好；iPhone 请关掉静音开关<br>全程用一根手指：在坑里擦</p>
 </section>
 <div id="rotate" aria-live="polite"><p>把手机竖过来<br><small>坑是竖的，竖屏才挖得开</small></p></div>
 
 <section id="card" class="sheet hide" role="dialog" aria-modal="false"><div id="cardBody"></div><div id="cardBtns"></div></section>
 
+<section id="gal" class="hide" aria-label="展品轮播" aria-roledescription="轮播">
+  <div class="gbg"></div><img class="gimg" alt="" draggable="false">
+  <div class="gtxt"><p class="gk"></p><h2></h2><div class="gbody"></div><p class="gcred"></p></div>
+  <div class="gnav"><button class="btn" data-g="prev" aria-label="上一件">‹</button><button class="btn" data-g="play">暂停</button><button class="btn" data-g="next" aria-label="下一件">›</button><button class="btn" data-g="close">返回</button></div>
+  <div class="gbar"><i></i></div>
+</section>
 <footer id="honest" role="button" tabindex="0" aria-label="打开来源">真照片：博物馆里修复后的器物（CC0 / CC BY-SA）｜坑、土、灯、象牙、方舱：示意｜声音：合成｜点这里看来源</footer>
 <script src="js/audio.js"></script>
 <script src="js/app.js"></script>
