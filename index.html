@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0d0a07">
+<title>掘 · 你是考古队员</title>
+<meta name="description" content="三星堆两次发掘：1986 年草棚夜里的抢救发掘，2020 年方舱里的多学科考古。用手指一层一层挖。">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="c" aria-label="坑"></canvas>
+<header id="top"><span id="when"></span><span id="where"></span></header>
+<div id="say" aria-live="polite"></div>
+<div id="hint" aria-live="polite"></div>
+<div id="hud"></div>
+<div id="choice" class="hide"></div>
+<nav id="tools" class="hide" aria-label="工具"></nav>
+
+<section id="intro" class="sheet">
+  <p class="kicker">三星堆 · 第一章</p>
+  <h1>掘</h1>
+  <p class="line">你是考古队员：挖、看、合、问。</p>
+  <p class="q">同一片土，挖了两次。<br>1986 年，草棚、灯泡、雷雨；2020 年，方舱、平台、显微镜。</p>
+  <div class="two">
+    <button class="btn main" data-mode="86">1986 · 草棚夜<small>推荐先玩</small></button>
+    <button class="btn main alt" data-mode="20">2020 · 方舱<small>4 号坑</small></button>
+  </div>
+  <p class="small">有声音，戴耳机更好；iPhone 请关掉静音开关<br>全程用一根手指：在坑里擦</p>
+</section>
+
+<section id="card" class="sheet hide" role="dialog" aria-modal="false"><div id="cardBody"></div><div id="cardBtns"></div></section>
+
+<footer id="honest" role="button" tabindex="0" aria-label="打开来源">真照片：博物馆里修复后的器物（CC0 / CC BY-SA）｜坑、土、灯、象牙、方舱：示意｜声音：合成｜点这里看来源</footer>
+<script src="js/audio.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
