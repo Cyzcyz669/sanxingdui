@@ -32,6 +32,6 @@
 
 ## 第二章“看”试做：纵目面具 3D 示意模型
 
-`look.html`：青铜纵目面具的 3D **示意**模型，照着 Gary Todd 拍的 4 张照片（Wikimedia Commons “Ancient Bronze Mask from Sanxingdui with Protruding Eyes & Ears a/c/d/e”，**CC0**）和展牌尺寸（宽 138、高 66 厘米）手工搭建，**不是扫描**；眼柱长短、厚度、背后和顶上等是估的。`m3d_a/c/d/e.webp` 是这 4 张照片缩小并压平展厅灯光后的贴图。
+`look.html`：青铜纵目面具的 3D **示意**模型，照着 Gary Todd 拍的 4 张照片（Wikimedia Commons “Ancient Bronze Mask from Sanxingdui with Protruding Eyes & Ears a/c/d/e”，**CC0**）和展牌尺寸（宽 138、高 66 厘米）手工搭建，**不是扫描**；侧面轮廓（下巴前探、鼻子下面的嘴凹）另参考了几张展厅视频截图，只用来量形状，截图本身不在本仓库、也不用作贴图；眼柱长短、厚度、背后和顶上等是估的。`m3d_a/c/d/e.webp` 是这 4 张照片缩小并压平展厅灯光后的贴图。
 
 © dai vu。设计、代码与文案保留所有权利；未经许可，请勿复制、改编或再发布（上表所列第三方图片按其各自授权）。
